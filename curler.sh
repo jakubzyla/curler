@@ -26,5 +26,6 @@ else
 	else
 		echo "Something is no yes with curl, exit code is $curl_code";
 		exit $curl_code
+	fi
 fi
 
